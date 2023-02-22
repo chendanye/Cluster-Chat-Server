@@ -7,7 +7,7 @@
 
 using namespace std;
 
-//# 再包装一层是因为signal()？
+// 再包装一层是因为signal()
 void resetHandler(int){
     ChatService::instance()->reset();
     exit(0);
